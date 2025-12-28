@@ -2,7 +2,15 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "api",
   "main": "src/index.ts",
-  "compatibility_date": "2025-12-26"
+  "compatibility_date": "2025-12-26",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "flash",
+      "database_id": "1e7fd4d7-9f66-45fe-b1f3-64f78d3f7894",
+      "migrations_dir": "drizzle"
+    }
+  ]
   // "compatibility_flags": [
   //   "nodejs_compat"
   // ],
