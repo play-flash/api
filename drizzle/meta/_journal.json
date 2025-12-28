@@ -8,6 +8,13 @@
       "when": 1766802212731,
       "tag": "0000_add-todos-table",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1766898509016,
+      "tag": "0001_lying_slyde",
+      "breakpoints": true
     }
   ]
 }
