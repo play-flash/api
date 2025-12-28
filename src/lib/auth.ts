@@ -43,6 +43,14 @@ export const createAuth = (env: Bindings) => {
       "https://flash.shgysd.workers.dev",
       "http://localhost:3000",
     ],
+    advanced: {
+      crossSubDomainCookies: env.BETTER_AUTH_URL.includes("localhost")
+        ? { enabled: false }
+        : {
+            enabled: true,
+            domain: ".shgysd.workers.dev",
+          },
+    },
   });
 };
 
