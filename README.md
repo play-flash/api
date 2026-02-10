@@ -1,4 +1,4 @@
-```txt
+[```txt
 npm install
 npm run dev
 ```
@@ -20,3 +20,4 @@ Pass the `CloudflareBindings` as generics when instantiation `Hono`:
 const app = new Hono<{ Bindings: CloudflareBindings }>()
 ```
 # api
+](https://api.shgysd.workers.dev/)
